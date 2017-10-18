@@ -1,10 +1,18 @@
 # Minar monero_cli #
 -- Debe tener una cuenta en minegate en https://minergate.com
 
--- Descargar el repositorio https://github.com/gbolivar/monero_cli.github
+-- Descargar el repositorio 
+```terminal
+	git clone https://github.com/gbolivar/monero_cli.git
+```
 
--- cd monero_cli
+```terminal
+ 	cd monero_cli
+```
 
--- dpkg -i minergate-cli-release.deb
-
--- minergate-cli -user YOUR-EMAIL -bcn 2 -fcn+xmr 2
+```terminal
+ 	dpkg -i minergate-cli-release.deb
+ ```
+```terminal
+ 	minergate-cli -user YOUR-EMAIL -bcn 2 -fcn+xmr 2
+```
